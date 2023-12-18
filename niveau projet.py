@@ -1,4 +1,4 @@
-if Héros.EXP == 100:
+if Héros.EXP == 100 or Héros.EXP >100 :
         Héros.lvl += 1
         Héros.HP *= 1.1
         Héros.DEF *= 1.1
